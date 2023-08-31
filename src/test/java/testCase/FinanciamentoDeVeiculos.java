@@ -48,7 +48,7 @@ public class FinanciamentoDeVeiculos {
 	public void financiamentoDeVeiculos() {
 		
 		utilitariosSelenium.acessarURL(driver, url);		
-		pageObjectProdutosServicos.escolherProdutosEServicos();
+//		pageObjectProdutosServicos.escolherProdutosEServicos();
 //		pageObjectFinanciamentoDeVeiculos.acessarFinanciamentoVeiculos();
 //		pageObjectFinanciamentoDeVeiculos.preencherSimulacao(tipoDeBem, anoFabricacao, valorBemSeFinanciado, valorEntrada, dataPrimeiraParcela, quantiaParcelas);
 //		pageObjectFinanciamentoDeVeiculos.validarResultadoSimulacao(prazoParcelas, valorFinanciado);	
