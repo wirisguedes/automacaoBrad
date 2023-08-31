@@ -8,7 +8,7 @@ pipeline {
         stage('Running') {
              steps {
                 echo 'Testing...'
-                sh 'mvn clean install'
+                sh 'mvn clean test'
                 
             }
         }
