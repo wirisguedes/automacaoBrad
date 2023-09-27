@@ -46,7 +46,7 @@ public class FinanciamentoDeVeiculos {
 	
 	@Test
 	public void financiamentoDeVeiculos() {
-		
+		System.out.println("Iniciando");
 		utilitariosSelenium.acessarURL(driver, url);		
 		pageObjectProdutosServicos.escolherProdutosEServicos();
 //		pageObjectFinanciamentoDeVeiculos.acessarFinanciamentoVeiculos();
